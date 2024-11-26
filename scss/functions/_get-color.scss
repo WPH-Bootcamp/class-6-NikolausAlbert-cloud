@@ -16,7 +16,6 @@
 
     @if map.has-key($mapLevel, $level) {
       $result: map.get($mapLevel, $level);
-      @debug "result:#{$result}."; 
       
       @return $result;
     } @else {
